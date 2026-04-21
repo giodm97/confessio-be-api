@@ -1,0 +1,24 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: confessio-postgres
+    environment:
+      POSTGRES_DB: confessio
+      POSTGRES_USER: confessio
+      POSTGRES_PASSWORD: confessio
+    ports:
+      - "5432:5432"
+    volumes:
+      - confessio-pg-data:/var/lib/postgresql/data
+
+  adminer:
+    image: adminer:latest
+    container_name: confessio-adminer
+    restart: unless-stopped
+    ports:
+      - "8090:8080"
+    depends_on:
+      - postgres
+
+volumes:
+  confessio-pg-data:

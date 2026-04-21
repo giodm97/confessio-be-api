@@ -2,7 +2,7 @@
 repo: giodm97/confessio-be-api
 title: "Sprint 1 — Spring Boot project setup + Docker Compose + application.properties"
 labels: enhancement
-status: pending
+status: done
 ---
 
 ## Overview
