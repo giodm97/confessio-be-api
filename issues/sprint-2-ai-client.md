@@ -3,6 +3,7 @@ repo: giodm97/confessio-be-api
 title: "Sprint 2 — AI client: AiConfig, AiClient, AiResponse, AiConstants"
 labels: enhancement
 status: pending
+base_branch: develop
 ---
 
 ## Overview

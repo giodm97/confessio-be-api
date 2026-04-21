@@ -3,6 +3,7 @@ repo: giodm97/confessio-be-api
 title: "Sprint 1 — SecurityConfig, exception handling, constants"
 labels: enhancement
 status: pending
+base_branch: develop
 ---
 
 ## Overview

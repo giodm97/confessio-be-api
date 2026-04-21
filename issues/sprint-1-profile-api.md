@@ -3,6 +3,7 @@ repo: giodm97/confessio-be-api
 title: "Sprint 1 — Profile API: DTOs, mapper, service, controller, tests"
 labels: enhancement
 status: pending
+base_branch: develop
 ---
 
 ## Overview

@@ -3,6 +3,7 @@ repo: giodm97/confessio-be-api
 title: "Sprint 2 — Confession API: DTOs, service, controller, tests"
 labels: enhancement
 status: pending
+base_branch: develop
 ---
 
 ## Overview
